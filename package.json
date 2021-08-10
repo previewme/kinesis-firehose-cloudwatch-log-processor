@@ -1,11 +1,11 @@
 {
-  "name": "typescript-template",
+  "name": "kinesis-firehose-cloudwatch-log-processor",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:previewme/lambda-typescript.git"
+    "url": "git@github.com:previewme/kinesis-firehose-cloudwatch-log-processor.git"
   },
-  "description": "Template for creating typescript lambda functions",
+  "description": "Lambda function which transforms, unzips and processes cloudwatch logs",
   "main": "index.js",
   "scripts": {
     "build": "tsc",

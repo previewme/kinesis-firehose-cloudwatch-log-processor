@@ -7,7 +7,7 @@
 
 Lambda function which transforms, unzips and processes cloudwatch logs.
 
-
+This function currently does not try to parse the message content. Just adds a new line between every log message so that it can be read my Athena.
 
 ## Build
 

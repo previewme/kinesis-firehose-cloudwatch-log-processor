@@ -7,7 +7,7 @@
 
 Lambda function which transforms, unzips and processes cloudwatch logs.
 
-This function currently does not try to parse the message content. Just adds a new line between every log message so that it can be read my Athena.
+The function currently does not parse the message content, instead just ensures that AWS Athena can read the logs. The function ensures the account id, log group and log stream is retained for every log message.
 
 ## Build
 
